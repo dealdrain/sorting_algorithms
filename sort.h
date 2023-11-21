@@ -30,5 +30,10 @@ int partition(int *array, int low, int high, size_t size);
 void qs(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void swap_node(listint_t *node_a, listint_t *node_b, listint_t **list);
+void quick_sort_recursive(int *array, int low, int high, size_t size);
+int partition(int *array, int low, int high, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
