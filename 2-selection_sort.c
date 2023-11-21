@@ -1,10 +1,11 @@
 #include "sort.h"
 
 /**
- * selection_sort - Sorts an array using the selection sort algorithm.
- * @array: The array to be sorted.
- * @size: Number of elements in @array.
+ * selection_sort - Sorting an array with sort alg.
+ * @array: The array
+ * @size: elements in the @array.
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t cur_idx, comp_idx, min_idx, temp, swap_flag;
